@@ -14,10 +14,11 @@
 
 
 
-    var image = '';
+    
+     var image = '';
     var carName = prompt("Choose one of these cars:","BMW, Mercedes, Range Rover");
     var carNumber = prompt("How many times you want this car?");
-    for (var i=0;i<=carNumber;i++)
+    for (var i=1;i<=carNumber;i++)
         {
             if(carName === "BMW")
             {
