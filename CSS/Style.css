@@ -27,6 +27,7 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 3px; 
+    color: #b4a5a5;
 }
 header nav ul li a {
     text-decoration: none;
@@ -68,7 +69,6 @@ img {
 
 a:hover{
     background-color: #301b3f;
-    color: #b4a5a5;
-    opacity: 0.8;
+    color:#23F 
 }
 
