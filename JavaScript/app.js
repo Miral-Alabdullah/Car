@@ -3,21 +3,23 @@
     var password = prompt("Enter your password", "Hint: 0000, Try it wrongly!");
     
 
+    function login()
+    {
     while (userName != "Miral" && password != "0000")
     {
         userName = prompt("Enter your username again:", "Hint: Miral");
-        password = prompt("Enter your password again", "Hint: 0000");
-        
+        password = prompt("Enter your password again", "Hint: 0000");   
     }
-     alert(" Welcome to our website " + userName)
+    }
+    alert(" Welcome to our website " + userName)
+    login();
 
-
-
-
+ 
     
-     var image = '';
+    var image = '';
     var carName = prompt("Choose one of these cars:","BMW, Mercedes, Range Rover");
     var carNumber = prompt("How many times you want this car?");
+    function carDisplayed(){
     for (var i=1;i<=carNumber;i++)
         {
             if(carName === "BMW")
@@ -31,9 +33,18 @@
                  image = image + '<img src="https://i.pinimg.com/originals/26/e6/7f/26e67f0e92d14a8336f825eb5cc2e9a1.jpg"/>';
             } 
         }
-        console.log(image);
-        document.write(image);
-            
+    }
+
+    carDisplayed(image);
+    console.log(image);
+    document.write(image);
+       
+    
+    function showAlert()
+     {
+         alert("This page is not available yet")
+     }
+      
 
         
 
@@ -41,10 +52,7 @@
 
     
 
-    function showAlert()
-    {
-        alert("This page is not available yet")
-    } 
+
 
 
 
